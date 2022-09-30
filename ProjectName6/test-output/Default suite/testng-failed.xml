@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Pack6.TesNgirctc">
+        <methods>
+          <include name="aftertest"/>
+          <include name="beformethod"/>
+          <include name="verifyrediobutton"/>
+          <include name="aftermethod"/>
+          <include name="closeobject"/>
+          <include name="openBrowser"/>
+          <include name="verifyselectdropdown"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- Pack6.TesNgirctc -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
